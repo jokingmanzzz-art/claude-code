@@ -1,0 +1,5 @@
+[
+  { "check": "assets", "target": "the page", "reason": "Pretendard CDN(cdn.jsdelivr.net)이 이 검사 환경의 네트워크에서만 막혀 있음. DESIGN.md 4장의 지정 글꼴이며, 대체 글꼴 Noto Sans KR로 측정됨" },
+  { "check": "hero-lines", "target": "section.hero h1", "reason": "검사가 h1을 라틴 문자 기준 48자로 채움. 한글은 글자 폭이 약 두 배라 과대 측정. 실제 h1은 1440과 390에서 모두 2줄" },
+  { "check": "hero-maxchars", "target": "section.hero.hero--collage", "reason": "같은 48자 채우기 검사. 한글 48자는 라틴 약 90자 분량. 실제 h1과 히어로는 390x844 한 화면 안에 들어감" }
+]
